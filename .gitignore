@@ -1,0 +1,35 @@
+# Archivos y directorios generados por Python
+__pycache__/
+*.pyc
+
+# Directorio virtualenv creado por venv
+venv/
+
+# Directorio de archivos generados por IDEs/editores de texto
+.idea/
+.vscode/
+
+# Archivos generados por Flask y aplicaciones web en general
+__init__.pyc
+*.pyc
+*.pyo
+*.db
+
+# Archivos de registro
+*.log
+
+# Archivos de configuración locales
+instance/
+config.py
+.env
+
+# Archivos de caché y registros de pruebas
+.cache/
+.coverage
+htmlcov/
+
+# Archivo generado de dependencias
+requirements.txt
+
+# Entorno virtual de Python (depende de cómo se llama)
+/.python-version

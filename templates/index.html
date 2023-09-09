@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Códigos QR</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Códigos QR</h1>
+        <form id="qr-form">
+            <label for="text">Texto para el código QR:</label>
+            <input type="text" name="text" id="text" required>
+            <button type="submit" class="btn-round">Generar QR</button>
+        </form>
+        <div id="qr-code-container" style="display: none;">
+            <h2>Código QR generado:</h2>
+            <img id="qr-code-image" src="" alt="QR Code">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>

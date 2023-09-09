@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Esto centra verticalmente en la ventana */
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* max-width: 80%; */
+    /* width: 400px; */
+    margin: 20px;
+    
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    /*width: 100%;*/
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-round {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#qr-code-container {
+    margin-top: 20px;
+}
+
+#qr-code-image {
+    max-width: 100%;
+    height: auto;
+}
